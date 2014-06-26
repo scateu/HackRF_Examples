@@ -1,0 +1,16 @@
+$ sudo tcpdump -i lo -x |head
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on lo, link-type EN10MB (Ethernet), capture size 65535 bytes
+12:15:39.491700 IP localhost.54162 > localhost.9988: Flags [P.], seq 2010157703:2010190471, ack 3110866852, win 342, options [nop,nop,TS val 18436057 ecr 18436026], length 32768
+    0x0000:  4500 8034 3503 4000 4006 87be 7f00 0001
+    0x0010:  7f00 0001 d392 2704 77d0 9287 b96c 0fa4
+    0x0020:  8018 0156 7e29 0000 0101 080a 0119 4fd9
+    0x0030:  0119 4fba 0000 40bc 0000 103d 0000 40bc
+    0x0040:  0000 e03c 0000 40bc 0000 103d 0000 80bb
+    0x0050:  0000 103d 0000 40bc 0000 103d 0000 40bc
+    0x0060:  0000 e03c 0000 40bc 0000 e03c 0000 80bb
+    0x0070:  0000 103d 0000 80bb 0000 103d 0000 80bb
+    0x0080:  0000 103d 0000 40bc 0000 103d 0000 80bb
+1 packet captured
+66 packets received by filter
+34 packets dropped by kernel
